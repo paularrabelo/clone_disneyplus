@@ -55,11 +55,10 @@
 
     select {
         background-color: transparent;
-        border: none;
+        border: none !important;
         color: variaveis.$corTextoPrincipal;
         height: 38px;
         cursor: pointer;
-
         
         &:hover {
             color: variaveis.$corTextoSecundario;
